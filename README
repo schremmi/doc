@@ -1,0 +1,46 @@
+
+
+auftragsdaten_aid
+_________________
+
+	originäre auftragsdaten zur Anzeige  ( intern (viva/oo) extern(agenturen) )
+
+		aid
+		verlag
+		produkt
+		laufzeit
+		inhalt
+		preis
+		... ( je nach quelle )	
+
+onlinedaten_id
+______________
+
+	auftragsdaten(aid) + analysierte Daten , start/ende-Daten , !! online-ID !!  exportdaten(id)
+
+!		id - generierung
+		start/ende
+		online / offline
+		agentur
+		plz
+		...	
+
+(
+fakturadaten_fid
+________________
+
+	(extern) weiterleitung der "auftragsdaten" zur Fakturierung
+
+		id - fid
+		produkt
+		gp
+		gpid
+		verlag
+)
+		
+klickdaten_id
+_____________
+
+	statistische Daten (bewegungsdaten) exportdaten(id) -> joveo / meta / ... -> zugriffszahlen(id)
+
+
